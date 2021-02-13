@@ -1,0 +1,11 @@
+{
+  "name": "QuebraCabeca",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "c15b6087"
+}

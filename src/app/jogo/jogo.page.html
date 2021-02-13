@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col style="margin-top: 15px;">
+          <ion-title size="large">Movimentos {{mov}}</ion-title>
+        </ion-col>
+        <ion-col style="text-align: end;">
+          <a (click)="ngOnInit()"><h4><ion-icon  name="sync-outline"></ion-icon></h4></a>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    
+  
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div id="container" style="text-align: center;margin-top: 30%;">
+    <img (click)="onSwipe(0)" id="campo0" src="" style="width: 100px;height:100px"/>
+    <img (click)="onSwipe(1)" id="campo1" src="" style="width: 100px;height:100px"/>
+    <img (click)="onSwipe(2)" id="campo2" src="" style="width: 100px;height:100px"/>
+    <img (click)="onSwipe(3)" id="campo3" src="" style="width: 100px;height:100px"/>
+    <img (click)="onSwipe(4)" id="campo4" src="" style="width: 100px;height:100px"/>
+    <img (click)="onSwipe(5)" id="campo5" src="" style="width: 100px;height:100px"/>
+    <img (click)="onSwipe(6)" id="campo6" src="" style="width: 100px;height:100px"/>
+    <img (click)="onSwipe(7)" id="campo7" src="" style="width: 100px;height:100px"/>
+    <img (click)="onSwipe(8)"  id="campo8" src="" style="width: 100px;height:100px"/>
+  </div>
+</ion-content>
